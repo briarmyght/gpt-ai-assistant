@@ -49,6 +49,9 @@ const config = Object.freeze({
   SERPAPI_API_KEY: env.SERPAPI_API_KEY || null,
   SERPAPI_LOCATION: env.SERPAPI_LOCATION || 'Taiwan',
   SERPAPI_LANG: env.SERPAPI_LANG || 'lang_zh-TW',
+  APP_MAX_PROMPT_MESSAGES=4
+  APP_MAX_PROMPT_TOKENS=64
+
 });
 
 export default config;
